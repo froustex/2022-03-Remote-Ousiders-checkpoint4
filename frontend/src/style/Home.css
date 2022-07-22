@@ -1,0 +1,72 @@
+.home {
+  height: 100vh;
+  display: flex;
+  background-color: #020230;
+  color: white;
+  flex-direction: row;
+}
+
+.categories-bloc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
+    url("../assets/bg.jpg") center;
+}
+
+.categorie-card {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.title {
+  display: flex;
+  width: 45%;
+  height: 6rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  cursor: pointer;
+  color: purple;
+}
+
+h2.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 40px;
+
+  background: linear-gradient(currentColor 0 0) top,
+    linear-gradient(currentColor 0 0) left,
+    linear-gradient(currentColor 0 0) bottom,
+    linear-gradient(currentColor 0 0) right;
+  background-size: var(--d, 0) 10px, 10px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.theme:hover {
+  --d: 100%;
+}
+
+.choice {
+  display: flex;
+  gap: 3rem;
+}
+
+.difficulty {
+  display: flex;
+  align-items: center;
+}

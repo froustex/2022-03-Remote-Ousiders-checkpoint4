@@ -1,0 +1,119 @@
+.accueil {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #020230;
+  color: white;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
+    url("../assets/bg.jpg") center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.identify {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.register {
+  justify-content: center;
+  width: 40vw;
+  height: 4rem;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.login {
+  justify-content: center;
+  width: 40vw;
+  height: 4rem;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.registerButton {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  cursor: pointer;
+  color: purple;
+  font-size: 1.2rem;
+
+  background: linear-gradient(currentColor 0 0) top,
+    linear-gradient(currentColor 0 0) left,
+    linear-gradient(currentColor 0 0) bottom,
+    linear-gradient(currentColor 0 0) right;
+  background-size: var(--d, 0) 10px, 10px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.registerButton:hover {
+  --d: 100%;
+}
+
+.loginButton {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  cursor: pointer;
+  color: purple;
+  font-size: 1.2rem;
+
+  background: linear-gradient(currentColor 0 0) top,
+    linear-gradient(currentColor 0 0) left,
+    linear-gradient(currentColor 0 0) bottom,
+    linear-gradient(currentColor 0 0) right;
+  background-size: var(--d, 0) 10px, 10px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.loginButton:hover {
+  --d: 100%;
+}
+
+.contentTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 6rem;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.quizTitle {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  color: purple;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(currentColor 0 0) top,
+    linear-gradient(currentColor 0 0) left,
+    linear-gradient(currentColor 0 0) bottom,
+    linear-gradient(currentColor 0 0) right;
+  background-size: var(--d, 0) 10px, 10px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.quizTitle:hover {
+  --d: 100%;
+}
